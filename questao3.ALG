@@ -1,10 +1,11 @@
-3. Escreva um programa que leia um número inteiro que represente a idade de uma pessoa (em anos). Calcule numa variável real quantos minutos está pessoa já viveu e apresente na tela. 
+
 
 // Declaração das variáveis
 Início 
 
 inteiro idade
 real minutos_vividos
+FimAlgoritmo
 
 // Entrada de dados
 escreva("Digite a idade da pessoa em anos: ")
