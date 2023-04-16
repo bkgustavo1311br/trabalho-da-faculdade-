@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main() {
-   for(int i=-100; i<=300; i++) {
-      printf("%d\n", i);
-   }
-   return 0;
+    int num;
+    for (num = -100; num <= 300; num++) {
+        printf("%d\n", num);
+    }
+    return 0;
 }
