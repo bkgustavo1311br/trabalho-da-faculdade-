@@ -1,16 +1,16 @@
 #include <stdio.h>
 
+
+
 int main() {
-    float fahrenheit, celsius;
+    float fah, cel;
 
-    // Ler a temperatura em graus Fahrenheit
     printf("Digite a temperatura em graus Fahrenheit: ");
-    scanf("%f", &fahrenheit);
+    scanf("%f", &fah);
 
-    // Calcular a temperatura em graus Celsius usando a fórmula
-    celsius = 5 * (fahrenheit - 32) / 9;
+    cel = 5 * (fah - 32) / 9;
 
-    // Exibir o resultado
-    printf("A temperatura em graus Celsius é: %.2f\n", celsius);
+    printf("%.2f graus Fahrenheit correspondem a %.2f graus Celsius.\n", fah, cel);
 
     return 0;
+}
