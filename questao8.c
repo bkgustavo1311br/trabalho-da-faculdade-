@@ -5,6 +5,9 @@ int main() {
     printf("Digite a sigla do estado: ");
     scanf("%s", estado);
     
+    //  Digite em maiúsculo pfvr 
+	 
+    
     if (estado[0] == 'A' && estado[1] == 'M') {
         printf("Você é Amazonense\n");
     } else if (estado[0] == 'R' && estado[1] == 'J') {
